@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1e77097-2d77-4965-b01a-28cb3a3f0399">
+  <producedTypes>
+    <refType typeId="ce53fec2-4c95-4769-a27d-8fb3cffe32db" valueTypeId="89001010-9dd2-4356-bff2-f69c441719ff"/>
+    <listType typeId="9e10ff2c-0690-4b8e-9542-a41259ad4939" valueTypeId="b0051ea3-6685-4c2c-8a09-1a54cbccd40b"/>
+    <managerType typeId="905c5065-d88e-40fb-88b5-6d3fd809d688" valueTypeId="1aebc3fe-8542-4b81-a17d-4ac3f50e2264"/>
+  </producedTypes>
+  <name>ПричиныСписания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Причины списания</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5aa49f14-e1d2-4f6a-ae3b-e1bcc9e49833">
+    <name>Порча</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порча</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9496642c-a619-47e6-8d81-0b2904a02b0e">
+    <name>ИстечениеСрокаГодности</name>
+    <synonym>
+      <key>ru</key>
+      <value>Истечение срока годности</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d658579a-6d1d-413b-b29e-8203403b6b03">
+    <name>Недостача</name>
+    <synonym>
+      <key>ru</key>
+      <value>Недостача</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
