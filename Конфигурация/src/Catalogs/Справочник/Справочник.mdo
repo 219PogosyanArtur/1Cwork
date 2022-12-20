@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1366c7a0-8afd-43df-9f49-441f97c04709">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1366c7a0-8afd-43df-9f49-441f97c04709">
   <producedTypes>
     <objectType typeId="dca7d6a5-ec2c-43b7-b32a-15a818afaecb" valueTypeId="3f57b972-b634-4f37-82f8-e57bb4e2d305"/>
     <refType typeId="088c237a-a7bb-4b3b-af1e-fa1985abf138" valueTypeId="f30efe3c-ebe1-4eb4-bc5f-9574cfdc5e51"/>
@@ -30,4 +30,22 @@
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <attributes uuid="2a4b841e-b4f9-42a7-99eb-32bb318a4058">
+    <name>Rodion</name>
+    <synonym>
+      <key>ru</key>
+      <value>Rodion</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
 </mdclass:Catalog>
